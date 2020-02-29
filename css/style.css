@@ -529,8 +529,10 @@ figcaption details p {
 .floe-content.floe-story a {
     font-weight: bold;
     color: #000000;
-    background-color: #FFCB00;
-    text-decoration: none;
+    /* background-color: #FFCB00; */
+    text-decoration: underline;
+    text-decoration-color: #FFCB00;
+    text-decoration-thickness: 3px;     /* Supported in firefox and safari */
     border-bottom: none;
     padding: 0 0.2em;
 }
